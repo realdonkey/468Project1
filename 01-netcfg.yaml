@@ -1,3 +1,7 @@
+#Edited by Zack Smith
+#Added configuration for private network for Project1
+#enp0s8 is Gateway facing interface, uses gateway as default gateway 
+#google name servers used
 network:
         version: 2
         renderer: networkd
