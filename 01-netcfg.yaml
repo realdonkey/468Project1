@@ -1,3 +1,9 @@
+#Edited by Zack Smith
+#Added configuration for private network for Project1
+#enp0s8 is internet facing interface, gets ip from DHCP request 
+#enp0s9 is client facing interface
+#enp0s10 is server facing interface
+#google name servers used
 network:
         version: 2
         renderer: networkd
